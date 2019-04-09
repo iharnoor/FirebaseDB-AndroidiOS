@@ -55,22 +55,6 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<MyRecyclerViewAd
             itemView.setOnClickListener(this);
         }
 
-        public TextView getTvFirstName() {
-            return tvFirstName;
-        }
-
-        public void setTvFirstName(TextView tvFirstName) {
-            this.tvFirstName = tvFirstName;
-        }
-
-        public TextView getTvLastName() {
-            return tvLastName;
-        }
-
-        public void setTvLastName(TextView tvLastName) {
-            this.tvLastName = tvLastName;
-        }
-
         @Override
         public void onClick(View view) {
             if (mClickListener != null) mClickListener.onItemClick(view, getAdapterPosition());

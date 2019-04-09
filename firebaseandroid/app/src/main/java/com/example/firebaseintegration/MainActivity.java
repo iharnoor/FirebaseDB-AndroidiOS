@@ -1,8 +1,7 @@
 package com.example.firebaseintegration;
 
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -61,7 +60,7 @@ public class MainActivity extends AppCompatActivity implements MyRecyclerViewAda
                     adapter.notifyDataSetChanged();
                 }
 
-                Toast.makeText(getApplicationContext(), "updated: " + recordList.toString(), Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getApplicationContext(), "updated: " + recordList.toString(), Toast.LENGTH_SHORT).show();
                 // set up the RecyclerView
 
             }
